@@ -4,6 +4,7 @@ body {
   background-color: #f8f9fa;
   margin: 0;
   padding: 0;
+
 }
 
 /* Section Style */
@@ -11,6 +12,7 @@ body {
   padding: 30px 0;
   background-image: url('https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.jpg?s=612x612&w=0&k=20&c=QbFk2SfDb-7oK5Wo9dKmzFGNoi-h8HVEdOYWZbIjffo=');
   background-size: cover;
+
 }
 
 /* Container for centering the form */
