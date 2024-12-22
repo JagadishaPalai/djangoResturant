@@ -1,0 +1,217 @@
+/*=============================
+* Common CSS 
+===============================*/
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+  line-height: 1em;
+}
+
+h2 {
+  color: #502314;
+  font-size: 60px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+h3 {
+  color: #502314;
+  font-size: 25px;
+}
+
+h4 {
+  color: #502314;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+h6 {
+  color: #502314;
+  font-size: 25px;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn.btn-info {
+  background: #20c836;
+  border: 1px solid #d62300;
+  color: #fff;
+  border-radius: 25px;
+  padding: 12px 35px;
+}
+
+.bg-info {
+  background: #f5ebdc !important;
+}
+
+/* Padding Top for Some Section  */
+#about,
+#work,
+#service,
+#contact {
+  padding-top: 110px;
+}
+
+
+/*=============================
+* Heaader Area Style
+===============================*/
+#main_menu nav {
+  background: #ebe2d3;
+  font-weight: 500;
+}
+
+#main_menu nav li {
+  margin-left: 15px;
+}
+
+#mainmenu a.active {
+  color: #d62300;
+}
+
+/*=============================
+* Slider Area Style
+===============================*/
+#slider {
+  padding-top: 85px;
+}
+
+/*=============================
+* Contact Area Style
+===============================*/
+#contact {
+  background: url(img/map.jpg );
+}
+
+
+/*=============================
+* Footer Style
+===============================*/
+#footer form .btn.btn-info {
+  border-radius: 0;
+}
+
+#footer ul li a {
+  color: #262626;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#footer .social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/*=============================
+* Responsive Style
+===============================*/
+@media only screen and (max-width:600px) {
+  #main_menu img {
+    width: 200px;
+  }
+
+  #slider {
+    padding-top: 65px;
+  }
+
+  #about,
+  #work,
+  #service,
+  #contact {
+    padding-top: 35px;
+  }
+
+  h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+}
+
+/* _______________________________ */
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #cbdae9;
+  cursor: pointer;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 20px;
+  animation: marquee-scroll 15s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+.marquee-content i {
+  font-size: 24px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0bd530;
+}
+
+.bi-facebook {
+  color: #214ca8;
+}
+
+.bi-twitter {
+  color: rgb(21, 149, 200);
+}
+
+.bi-instagram {
+  color: rgb(234, 74, 111);
+}
+
+.bi-youtube {
+  color: rgb(239, 51, 51);
+}
+
+.bi-whatsapp {
+  color: #17e53c;
+}

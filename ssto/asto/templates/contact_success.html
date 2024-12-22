@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORDER YOUR FOOD</title>
+
+  <!-- Bootstrap 5 CSS (CDN) -->
+
+
+  <!-- Optionally, add a custom CSS file if needed -->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+  <section id="contact" class="pb-md-5 pb-3 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="card p-4 text-center">
+            <h2 >Book your Order 📦 </h2>
+            <span class="red-text">Thank you</span> for 
+            <span class="blue-text">choosing</span> us. Kindly 
+            <span class="green-text">order</span> your 
+            <span class="purple-text">food</span>.
+            <form method="POST">
+              {% csrf_token %}
+              {{ form.as_p }}
+              <input type="submit" value="Book your Order " class="btn btn-info">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap 5 JS (CDN) -->
+
+
+</body>
+</html>

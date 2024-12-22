@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Style */
+#contact {
+  padding: 30px 0;
+  background-image: url('https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.jpg?s=612x612&w=0&k=20&c=QbFk2SfDb-7oK5Wo9dKmzFGNoi-h8HVEdOYWZbIjffo=');
+  background-size: cover;
+}
+
+/* Container for centering the form */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card Style */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Style */
+.card h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Paragraph Style */
+.card p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Form Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Submit Button */
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #17a2b8;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #138496;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .card {
+    padding: 20px;
+  }
+
+  .card h2 {
+    font-size: 1.8rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  input[type="submit"] {
+    font-size: 1rem;
+  }
+}
+
+/* Desktop and Laptop Styles */
+@media (min-width: 768px) {
+  .card {
+    padding: 40px;
+  }
+
+  .card h2 {
+    font-size: 2.5rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+
+  input[type="submit"] {
+    font-size: 1.3rem;
+  }
+}
+
+.red-text {
+  color: red;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.green-text {
+  color: green;
+}
+
+.purple-text {
+  color: purple;
+}

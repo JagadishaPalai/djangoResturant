@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for centering the content */
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Card Style */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+/* Heading Style */
+.card h1 {
+  font-size: 2.5rem;
+  color: #17a2b8;
+  margin-bottom: 20px;
+}
+
+/* Paragraph Style */
+.card p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Contact Info */
+.card .contact-info {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Call to Action Button */
+.card .btn {
+  padding: 10px 20px;
+  background-color: #17a2b8;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+  background-color: #138496;
+}
